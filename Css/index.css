@@ -212,3 +212,10 @@
   ul {
     list-style-type: square;
   }
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/WICimages/Breakfast.jpg");
+  min-height: 90%;
+}
