@@ -215,3 +215,6 @@
 .WIC-table,.WIC-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.WIC-table-all{border:1px solid #ccc}
 .WIC-bordered tr,.WIC-table-all tr{border-bottom:1px solid #ddd}.WIC-striped tbody tr:nth-child(even){background-color:#f1f1f1}
 .WIC-table-all tr:nth-child(odd){background-color:#fff}.WIC-table-all tr:nth-child(even){background-color:#f1f1f1}
+.WIC-hoverable tbody tr:hover,.WIC-ul.WIC-hoverable li:hover{background-color:#ccc}.WIC-centered tr th,.WIC-centered tr td{text-align:center}
+.WIC-table td,.WIC-table th,.WIC-table-all td,.WIC-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.WIC-table th:first-child,.WIC-table td:first-child,.WIC-table-all th:first-child,.WIC-table-all td:first-child{padding-left:16px}
