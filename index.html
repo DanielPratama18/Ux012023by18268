@@ -322,47 +322,91 @@
   </div>
 </div>
 
-<!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
-  <h2>SERVICES</h2>
-  <h4>What we offer</h4>
-  <br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>POWER</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>JOB DONE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-  </div>
-  <br><br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-  </div>
-</div>
+<!-- Menu Container -->
+<div class="WIC-container WIC-padding-64 WIC-teal WIC-grayscale WIC-xlarge" id="menu">
+    <div class="WIC-content">
+    
+      <h1 class="WIC-center WIC-jumbo" style="margin-bottom:64px">THE MENU</h1>
+      <div class="WIC-row WIC-center WIC-border WIC-border-dark-grey">
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Breakfast');" id="myLink">
+          <div class="WIC-col s4 tablink WIC-padding-large WIC-hover-red">Breakfast</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Lunch');">
+          <div class="WIC-col s4 tablink WIC-padding-large WIC-hover-red">Lunch</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+          <div class="WIC-col s4 tablink WIC-padding-large WIC-hover-red">Drinks</div>
+        </a>
+      </div>
+  
+      <div id="Breakfast" class="WIC-container menu WIC-padding-32 WIC-white">
+        <h1><b>Egg and Cheese Croissant</b> <span class="WIC-right WIC-tag WIC-dark-grey WIC-round">$12.50</span></h1>
+        <p class="WIC-text-grey">Made with freshly-baked croissant, free-range eggs and melted cheese</p>
+        <hr>
+     
+        <h1><b>Bacon and Egg Breakfast Sandwich</b> <span class="WIC-right WIC-tag WIC-dark-grey WIC-round">$15.50</span></h1>
+        <p class="WIC-text-grey">Two slices of bacon, free-range egg and melted cheese in a toasted sandwich</p>
+        <hr>
+        
+        <h1><b>Avocado Toast</b> <span class="WIC-right WIC-tag WIC-dark-grey WIC-round">$17.00</span></h1>
+        <p class="WIC-text-grey">Smashed avocado, feta cheese and cherry tomatoes on a toasted baguette</p>
+        <hr>
+  
+        <h1><b>French Toast</b> <span class="WIC-right WIC-tag WIC-dark-grey WIC-round">$16.50</span></h1>
+        <p class="WIC-text-grey">Thick slices of cinnamon toast served with fresh berries and maple syrup</p>
+        <hr>
+  
+        <h1><b>Breakfast Burrito</b> <span class="WIC-tag WIC-red WIC-round">Hot!</span><span class="WIC-right WIC-tag WIC-dark-grey WIC-round">$20.00</span></h1>
+        <p class="WIC-text-grey">Scrambled eggs, black beans, tomatoes, onions and cheese wrapped in a flour tortilla</p>
+        <hr>
+  
+      </div>
+  
+      <div id="Lunch" class="WIC-container menu WIC-padding-32 WIC-white">
+        <h1><b>Chicken Salad Sandwich</b>   <span class="WIC-tag WIC-grey WIC-round">Popular</span> <span class="WIC-right WIC-tag WIC-dark-grey WIC-round">$13.50</span></h1>
+        <p class="WIC-text-grey">Grilled chicken, lettuce, tomatoes and mayonnaise on toasted whole wheat bread</p>
+        <hr>
+     
+        <h1><b>Grilled Vegetable Wrap</b> <span class="WIC-right WIC-tag WIC-dark-grey WIC-round">$14.50</span></h1>
+        <p class="WIC-text-grey">Grilled zucchini, bell peppers, onions and feta cheese wrapped in a flour tortilla</p>
+        <hr>
+        
+        <h1><b>Classic BLT</b> <span class="WIC-right WIC-tag WIC-dark-grey WIC-round">$11.00</span></h1>
+        <p class="WIC-text-grey">Bacon, lettuce, tomatoes and mayonnaise on toasted whole wheat bread</p>
+        <hr>
+  
+        <h1><b>Caprese Sandwich</b> <span class="WIC-right WIC-tag WIC-dark-grey WIC-round">$25.50</span></h1>
+        <p class="WIC-text-grey">Fresh mozzarella, basil and tomatoes on a toasted baguette</p>
+
+        <h1><b>Turkey Avocado Wrap</b> <span class="WIC-right WIC-tag WIC-dark-grey WIC-round">$25.50</span></h1>
+        <p class="WIC-text-grey">Roasted turkey, bacon, lettuce, avocado and mayonnaise wrapped in a flour tortilla
+        </p>
+      </div>
+  
+  
+      <div id="Drinks" class="WIC-container menu WIC-padding-32 WIC-white">
+        <h1><b>Coffee</b> <span class="WIC-tag WIC-grey WIC-round">Our Signature Drink</span><span class="WIC-right WIC-tag WIC-dark-grey WIC-round">$5.50</span></h1>
+        <p class="WIC-text-grey">Made with freshly-ground Kenya Arabica beans</p>
+        <hr>
+     
+        <h1><b>Cappuccino</b><span>        </span><span class="WIC-tag WIC-red WIC-round">Hot</span> <span class="WIC-right WIC-tag WIC-dark-grey WIC-round">$8.50</span></h1>
+        <p class="WIC-text-grey">Made with freshly-ground Kenya Arabica beans and rich espresso</p>
+        <hr>
+        
+        <h1><b>Latte</b> <span class="WIC-right WIC-tag WIC-dark-grey WIC-round">$9.50</span></h1>
+        <p class="WIC-text-grey">Made with freshly-ground Kenya Arabica beans and rich espresso, topped with a layer of foam</p>
+        <hr>
+        
+        <h1><b>Mocha</b><span>        </span><span class="WIC-tag WIC-grey WIC-round">Top Pick</span> <span class="WIC-right WIC-tag WIC-dark-grey WIC-round">$10.50</span></h1>
+        <p class="WIC-text-grey">Made with freshly-ground Kenya Arabica beans, rich espresso, steamed milk and chocolate</p>
+        
+        <h1><b>Espresso</b> <span class="WIC-right WIC-tag WIC-dark-grey WIC-round">$10.50</span></h1>
+        <p class="WIC-text-grey">Made with freshly-ground Kenya Arabica beans and rich espresso</p>
+        
+        <h1><b>Tea</b> <span class="WIC-right WIC-tag WIC-dark-grey WIC-round">$10.50</span></h1>
+        <p class="WIC-text-grey">Freshly-brewed black or green tea served with honey and lemon</p>
+        
+    </div><br>
 
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
